@@ -25,8 +25,8 @@ function LoginO1() {
       <input type="password" placeholder='enter your password'/>
       <br />
       <br />
-      <p>forgot password <br /> Don't have an account? <Link to='/Signup'>signup</Link> </p>
-      <Link to='/Dashboard'><button className='btn btn-primary'>Login</button></Link>
+      <p>forgot password <br /> Don't have an account? <Link to='Signup/'>signup</Link> </p>
+      <Link to='/dashboard'><button className='btn btn-primary'>Login</button></Link>
   </div>
 
       </Col>
