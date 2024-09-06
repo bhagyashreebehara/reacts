@@ -17,7 +17,7 @@ function LoginO1() {
   <div className='helo'>
       <h1><u>LOGIN</u></h1>
       <br />
-      <label>@-Mail:</label>&nbsp;
+      <label>E-Mail:</label>&nbsp;
       <input type="text" placeholder='enter your E-mail'/>
       <br />
       <br />
@@ -25,7 +25,7 @@ function LoginO1() {
       <input type="password" placeholder='enter your password'/>
       <br />
       <br />
-      <p>forgot password <br /> Don't have an account? <Link to='Signup/'>signup</Link> </p>
+      <p>forgot password <br /> Don't have an account? <Link to='/signup'>signup</Link> </p>
       <Link to='/dashboard'><button className='btn btn-primary'>Login</button></Link>
   </div>
 
