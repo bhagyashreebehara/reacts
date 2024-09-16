@@ -26,8 +26,8 @@ function App() {
         <Row>
             <Router>
                 <Routes>
-                    <Route path='/Login01' element={<Login01/>}/>
-                    <Route path='/reacts' element={<Signup/>}/>
+                    <Route path='/reacts' element={<Login01/>}/>
+                    <Route path='/Signup' element={<Signup/>}/>
                     <Route path='/Dashboard' element={<Dashboard/>}/>
                     <Route path='/about' element={<About/>}/>
                     <Route path='/services' element={<Services/>}/>
