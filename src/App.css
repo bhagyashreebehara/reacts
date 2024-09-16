@@ -54,7 +54,7 @@
 /*******for login img **********/
 
 .header{
-    background-color: pink;
+    background-color: lightskyblue;
     height: 100vh;
     position: fixed;
     top: 0%;
@@ -68,6 +68,9 @@
     color: coral;
 }
 .header li a {
+    text-decoration: none;
+}
+.hhhh a{
     text-decoration: none;
 }
 /*********header page*************/
@@ -118,10 +121,12 @@
     margin: 1%;
 }
 .card img{
-    height: 310px;
+    height: 300px;
     width: 100%;
 }
-
+.min{
+    background-color: black;
+}
 /************for about page******************/
 
 .font{
@@ -151,6 +156,9 @@
 }
 #wwr{
     color: white;
+}
+body{
+    background-color: gray;
 }
 /********for service page*******************/
 
@@ -202,12 +210,16 @@ input{
 .btn1{
     background-color: brown;
     color: black;
+    transition: width 2s, height 2s, transform 2s;
+
 }
 .btn1:hover{
     color: white;
+    transform: rotate(90deg);
 }
 .dem{
-    background-color: whitesmoke;
+    background-color: black;
+    height: 100vh;
 }
 
 
@@ -279,7 +291,6 @@ marquee{
     background-size: cover;
     border-radius: 20px;
 }
-
 
 /************* for blog5 page****************/
 .hrrr{

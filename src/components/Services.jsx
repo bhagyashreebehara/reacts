@@ -7,7 +7,7 @@ import Header from './Header'
 
 function Services() {
   return (
-    <div>
+    <div> 
       <Row>
         <Col sm={2}>
         <Header/>

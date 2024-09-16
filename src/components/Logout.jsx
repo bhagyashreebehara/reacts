@@ -17,7 +17,7 @@ function Logout() {
         <div className='test'> 
         <LogoutOutlinedIcon/><h4 className='hoo'>Logout</h4>
       <strong><p className='ho'>Are You Sure You Want To Logout.</p></strong>
-     <Link to='/'><button className='btn btn-outline-primary'>LOGOUT</button></Link>
+     <Link to='/login01'><button className='btn btn-outline-primary'>LOGOUT</button></Link>
      </div>
 
        </Col>
